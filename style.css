@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the topnav */
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #49bdd4;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #fafafa;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 200px;
+  border: 3px solid #000000;
+}
+
+body {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px 40px;
+  text-align: left;
+}
+
+section {
+  display: none;
+}
+
+section:target {
+  display: block;
+}
+
+body:not(:has(section:target)) #html {
+  display: block;
+}
+.tim{
+  float: right;
+  margin-top: -420px;
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
+p{
+  width: 50%;
+  height: 10%;
+}
+.html{
+  float: right;
+  margin-top: -270px;
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
+.p2{
+  width: 50%;
+  height: 10%;
+}
+.html2{
+  float: right;
+  margin-top: -270px;
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
+.html3{
+  float: right;
+  margin-top: -270px;
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
+.html4{
+  float: right;
+  margin-top: -270px;
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
+.xhtml{
+  float: right;
+  margin-top: -220px;
+  width: 250px;
+  height: auto;
+  margin-right: 180px;
+}
+.html5{
+  float: right;
+  margin-top: -190px;
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
+.cssguy{
+  float: right;
+  margin-top: -190px;
+  width: 250px;
+  height: auto;
+  margin-right: 200px;
+}
